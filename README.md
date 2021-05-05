@@ -6,6 +6,7 @@
 
 ## Planned tech-stack
 * Python
+* [fastcore](https://fastcore.fast.ai/)
 * [Playwright](https://playwright.dev/)
 * [Ward](https://wardpy.com/)
 
