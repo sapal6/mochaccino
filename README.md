@@ -8,7 +8,6 @@
 * Python
 * [fastcore](https://fastcore.fast.ai/)
 * [Playwright](https://playwright.dev/)
-* [Ward](https://wardpy.com/)
 
 ## Motivation behind starting this project
 I have used selenium as part of my day job for front end testing and pytest as well. Recently I have started to fiddle around Cypress and was thoroughly impressed by it. However, Cypress doesn't support Python yet and has some design restrcitions of it's own(which is not necessarily a bad thing at all). Selenium on the other hand doesn't have the restrictions of Cypress (like no support for super domain in cypress) but it does come with some limitations of it's own which are mostly due to some bad choices made during the implementation of the selenium API by the end user.
