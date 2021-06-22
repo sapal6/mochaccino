@@ -1,4 +1,4 @@
-# Mocaccino
+# Mochaccino
 **End To End Testing Framework**
 
 ## Mission
