@@ -4,7 +4,6 @@ __all__ = ['Describe', 'It']
 
 # Cell
 from contextlib import ContextDecorator
-from dataclasses import dataclass
 
 # Cell
 class Describe(ContextDecorator):
