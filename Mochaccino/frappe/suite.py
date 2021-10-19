@@ -14,11 +14,11 @@ class Describe(ContextDecorator):
         "start the execution of the suite and do setup"
         print(self.desc)
         return self
-
+    #TODO: create callbacks to check type, value,traceback and format report and termnial display
     def __exit__(self, type, value, traceback):
-        "cleanup and exIt the suite"
+        "cleanup and exit the suite"
         print(f'{self.desc} completed')
-        print(type, value, traceback, sep="\n")
+        #print(type, value, traceback, sep="\n")
         return True
 
 # Cell
@@ -30,7 +30,7 @@ class It(ContextDecorator):
         "start the execution of the test"
         print(self.desc)
         return self
-
+    #TODO: create callbacks to check type, value,traceback and format report and termnial display
     def __exit__(self, type, value, traceback):
         "cleanup and exit the test"
         print(f'{self.desc} completed')
