@@ -2,8 +2,8 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"describe": "00_frappe.suite.ipynb",
-         "it": "00_frappe.suite.ipynb"}
+index = {"Describe": "00_frappe.suite.ipynb",
+         "It": "00_frappe.suite.ipynb"}
 
 modules = ["frappe/suite.py"]
 
