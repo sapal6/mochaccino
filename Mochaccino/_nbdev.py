@@ -2,14 +2,18 @@
 
 __all__ = ["index", "modules", "custom_doc_links", "git_url"]
 
-index = {"Callback": "00_frappe.suite.ipynb",
-         "Describe": "00_frappe.suite.ipynb",
-         "It": "00_frappe.suite.ipynb"}
+index = {"Callback": "00_callbacks.ipynb",
+         "console": "00_callbacks.ipynb",
+         "CallbackHandler": "00_callbacks.ipynb",
+         "ReporterCallback": "00_callbacks.ipynb",
+         "Describe": "01_suite.ipynb",
+         "It": "01_suite.ipynb"}
 
-modules = ["frappe/suite.py"]
+modules = ["callbacks.py",
+           "suite.py"]
 
-doc_url = "https://sapal6.github.io/Mochaccino/"
+doc_url = "https://sapal6.github.io/mochaccino/"
 
-git_url = "https://github.com/sapal6/Mochaccino/tree/{branch}/"
+git_url = "https://github.com/sapal6/mochaccino/tree/{branch}/"
 
 def custom_doc_links(name): return None
