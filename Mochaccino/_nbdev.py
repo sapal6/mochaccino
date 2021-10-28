@@ -10,7 +10,8 @@ index = {"Callback": "00_callbacks.ipynb",
          "It": "01_suite.ipynb"}
 
 modules = ["callbacks.py",
-           "suite.py"]
+           "suite.py",
+           "matchers.py"]
 
 doc_url = "https://sapal6.github.io/mochaccino/"
 
